@@ -1,0 +1,35 @@
+/* Apply a basic reset to remove default margin and padding */
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#freelancers-list {
+    margin-top: 20px;
+}
+
+#freelancers-list div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#average-price {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Optional: Add some color and styling for better visual appeal */
+#freelancers-list div {
+    background-color: #f9f9f9;
+}
+
+#freelancers-list div:hover {
+    background-color: #e0e0e0;
+}
+
+/* Add more styles as needed */
