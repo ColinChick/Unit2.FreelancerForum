@@ -42,5 +42,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Set interval to add a new freelancer every few seconds
-    setInterval(addFreelancer, 5000); 
+    setInterval(addFreelancer, 7000); 
 });
